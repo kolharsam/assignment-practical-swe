@@ -1,0 +1,10 @@
+myvenv
+
+# Elastic Beanstalk Files
+**/.elasticbeanstalk/*
+# !.elasticbeanstalk/*.cfg.yml
+# !.elasticbeanstalk/*.global.yml
+
+.vscode
+
+**/__pycache__/*
