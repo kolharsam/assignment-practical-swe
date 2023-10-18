@@ -15,7 +15,7 @@ jobs:
 
     script:
       - black --check .
-      - flake8 .
+      - flake8 **/*.py
       - coverage run --source=polls manage.py test
 
     after_script:
