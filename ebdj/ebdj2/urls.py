@@ -20,9 +20,9 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('polls/', include('polls.urls')),
-    path('health', views.health),
-    path('healthz', views.health),
-    path('', views.default)
+    path("admin/", admin.site.urls),
+    path("polls/", include("polls.urls")),
+    path("health", views.health),
+    path("healthz", views.health),
+    path("", views.default),
 ]
